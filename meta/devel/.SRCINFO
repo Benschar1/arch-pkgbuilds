@@ -1,0 +1,22 @@
+pkgbase = tsvi-devel
+	pkgdesc = essential packages for general software development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-utils
+	depends = doxygen
+	depends = elfutils
+	depends = gdb
+	depends = git
+	depends = github-cli
+	depends = graphviz
+	depends = hyperfine
+	depends = just
+	depends = meson
+	depends = perf
+	depends = pkgconf
+	depends = python-gdbgui
+	depends = vscodium-bin
+	depends = vscodium-bin-marketplace
+
+pkgname = tsvi-devel

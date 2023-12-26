@@ -1,0 +1,22 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-rust'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='rust development'
+arch=('any')
+depends=('tsvi-devel'
+         'cargo-about'
+         'cargo-asm'
+         'cargo-bloat'
+         'cargo-cache'
+         'cargo-clean-all'
+         'cargo-clone'
+         'cargo-dist'
+         'cargo-expand'
+         'cargo-modules'
+         'cargo-sweep'
+         'cargo-udeps'
+         'cargo-whatfeatures'
+         'cargo-workspaces'
+         'rustup')
+

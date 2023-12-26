@@ -1,0 +1,12 @@
+pkgbase = srcinfo
+	pkgdesc = A script to regenerate out of date .SRCINFO files
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/Benschar1/arch-pkgbuilds
+	arch = any
+	license = GPL
+	depends = python
+	source = srcinfo
+	b2sums = SKIP
+
+pkgname = srcinfo

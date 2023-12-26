@@ -1,0 +1,17 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-gui-apps'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='essential gui apps'
+arch=('any')
+depends=('tsvi-desktop'
+         'alacritty'
+         'bitwarden'
+         'brave-bin'
+         'ferdium-bin'
+         'imv'
+         'pavucontrol'
+         'pix'
+         'qbittorrent'
+         'zoom')
+

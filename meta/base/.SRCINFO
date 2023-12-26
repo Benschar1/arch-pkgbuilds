@@ -1,0 +1,17 @@
+pkgbase = tsvi-base
+	pkgdesc = essentials
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = base
+	depends = base-devel
+	depends = efibootmgr
+	depends = grub
+	depends = intel-ucode
+	depends = linux
+	depends = linux-firmware
+	depends = networkmanager
+	depends = paru
+	depends = wireless_tools
+
+pkgname = tsvi-base

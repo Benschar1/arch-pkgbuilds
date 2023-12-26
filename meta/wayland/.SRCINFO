@@ -1,0 +1,13 @@
+pkgbase = tsvi-wayland
+	pkgdesc = wayland essentials
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-desktop
+	depends = waybar
+	depends = wayland-docs
+	depends = wayland-protocols
+	depends = wlogout
+	depends = wl-clipboard
+
+pkgname = tsvi-wayland

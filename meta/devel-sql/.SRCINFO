@@ -1,0 +1,11 @@
+pkgbase = tsvi-devel-sql
+	pkgdesc = sql development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = postgresql
+	depends = sqlfluff
+	depends = sqlite
+
+pkgname = tsvi-devel-sql

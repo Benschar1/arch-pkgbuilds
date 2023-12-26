@@ -1,0 +1,17 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-base'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='essentials'
+arch=('any')
+depends=('base'
+         'base-devel'
+         'efibootmgr'
+         'grub'
+         'intel-ucode'
+         'linux'
+         'linux-firmware'
+         'networkmanager'
+         'paru'
+         'wireless_tools')
+

@@ -1,0 +1,10 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-docker'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='docker development'
+arch=('any')
+depends=('tsvi-devel'
+         'docker'
+         'docker-compose')
+

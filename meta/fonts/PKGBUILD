@@ -1,0 +1,23 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-fonts'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='fonts'
+arch=('any')
+depends=('tsvi-desktop'
+         'adobe-source-code-pro-fonts'
+         'bdf-unifont'
+         'cantarell-fonts'
+         'libertinus-font'
+         'noto-fonts'
+         'noto-fonts-cjk'
+         'noto-fonts-emoji'
+         'noto-fonts-extra'
+         'otf-font-awesome'
+         'otf-firamono-nerd'
+         'terminus-font'
+         'ttf-dejavu'
+         'ttf-font-awesome-4'
+         'ttf-linux-libertine'
+         'ttf-noto-nerd')
+

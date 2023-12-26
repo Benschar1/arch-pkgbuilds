@@ -1,0 +1,10 @@
+pkgbase = tsvi-devel-arm
+	pkgdesc = arm development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = arm-none-eabi-gcc
+	depends = arm-none-eabi-newlib
+
+pkgname = tsvi-devel-arm

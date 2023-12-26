@@ -1,0 +1,9 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-lean'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='lean prover development'
+arch=('any')
+depends=('tsvi-devel'
+         'elan-lean')
+

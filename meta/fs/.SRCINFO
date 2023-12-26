@@ -1,0 +1,11 @@
+pkgbase = tsvi-fs
+	pkgdesc = filesystem essentials
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-base
+	depends = btrfs-progs
+	depends = e2fsprogs
+	depends = extundelete
+
+pkgname = tsvi-fs

@@ -1,0 +1,10 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-arm'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='arm development'
+arch=('any')
+depends=('tsvi-devel'
+         'arm-none-eabi-gcc'
+         'arm-none-eabi-newlib')
+

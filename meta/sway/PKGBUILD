@@ -1,0 +1,11 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-sway'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='sway desktop environment and helpers'
+arch=('any')
+depends=('tsvi-wayland'
+         'sway'
+         'swaybg'
+         'swww')
+

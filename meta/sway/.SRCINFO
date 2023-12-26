@@ -1,0 +1,11 @@
+pkgbase = tsvi-sway
+	pkgdesc = sway desktop environment and helpers
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-wayland
+	depends = sway
+	depends = swaybg
+	depends = swww
+
+pkgname = tsvi-sway

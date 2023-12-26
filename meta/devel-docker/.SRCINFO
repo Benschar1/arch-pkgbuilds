@@ -1,0 +1,10 @@
+pkgbase = tsvi-devel-docker
+	pkgdesc = docker development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = docker
+	depends = docker-compose
+
+pkgname = tsvi-devel-docker

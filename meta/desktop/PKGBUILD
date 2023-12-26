@@ -1,0 +1,19 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-desktop'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='desktop essentials'
+arch=('any')
+depends=('tsvi-base'
+         'brightnessctl'
+         'bluez'
+         'bluez-utils'
+         'ly'
+         'pipewire-pulse'
+         'powertop'
+         'tlp'
+         'tlp-rdw'
+         'upower'
+         'vlc'
+         'xdg-user-dirs')
+

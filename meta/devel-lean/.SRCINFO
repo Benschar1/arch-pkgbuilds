@@ -1,0 +1,9 @@
+pkgbase = tsvi-devel-lean
+	pkgdesc = lean prover development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = elan-lean
+
+pkgname = tsvi-devel-lean

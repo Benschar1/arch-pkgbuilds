@@ -1,0 +1,75 @@
+#!/bin/env python
+
+import os
+import subprocess
+import sys
+
+from contextlib import chdir
+
+INDENT = " " * 4
+USAGE = """
+Usage: exe [OPTION]... [TARGET]
+
+Recursively checks a directory for PKGBUILDs with out-of-date .SRCINFO files.
+Uses TARGET if provided, otherwise uses current directory. Considers a .SRCINFO
+file out of date if its last modified time is before the PKGBUILD's last
+modified time.
+
+Options:
+    -h, --help    Show this help message
+"""
+
+
+def main():
+    target = get_target()
+    pkgbuilds = [
+        os.path.normpath(dirname)
+        for dirname, _, files in os.walk(target)
+        if "PKGBUILD" in files
+    ]
+    pathlen = max(len(dirname) for dirname in pkgbuilds)
+
+    for dirname in pkgbuilds:
+        handle_pkgbuild(dirname, pathlen)
+
+
+# Parse CLI args and return target directory. If help flag is given, print help
+# message and exit process with code 0.
+def get_target():
+    if "-h" in sys.argv[1:] or "--help" in sys.argv[1:]:
+        print(USAGE)
+        sys.exit(0)
+    return sys.argv[1] if len(sys.argv) > 1 else "."
+
+
+def handle_pkgbuild(dirname, pathlen, indent=INDENT):
+    if should_regenerate(dirname):
+        eprint(f"{dirname.ljust(pathlen)} : generating .SRCINFO with makepkg")
+        with chdir(dirname):
+            output = subprocess.run(["makepkg", "--printsrcinfo"], capture_output=True)
+            for line in output.stderr.splitlines():
+                errmsg = line.decode("utf-8")
+                eprint("" if line.isspace() else f"{indent}{errmsg}")
+            if output.returncode != 0:
+                sys.exit(output.returncode)
+            with open(".SRCINFO", "wb") as SRCINFO:
+                SRCINFO.write(output.stdout)
+    else:
+        eprint(f"{dirname.ljust(pathlen)} : .SRCINFO is up to date")
+
+
+# Assumes that PKGBUILD is an existing file in dirname
+def should_regenerate(dirname):
+    PKGBUILD = os.path.join(dirname, "PKGBUILD")
+    SRCINFO = os.path.join(dirname, ".SRCINFO")
+    return not os.path.isfile(SRCINFO) or os.path.getmtime(
+        PKGBUILD
+    ) >= os.path.getmtime(SRCINFO)
+
+
+def eprint(string, end="\n"):
+    print(string, file=sys.stderr, end=end)
+
+
+if __name__ == "__main__":
+    main()

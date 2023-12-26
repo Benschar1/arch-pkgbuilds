@@ -1,0 +1,13 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-wayland'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='wayland essentials'
+arch=('any')
+depends=('tsvi-desktop'
+         'waybar'
+         'wayland-docs'
+         'wayland-protocols'
+         'wlogout'
+         'wl-clipboard')
+

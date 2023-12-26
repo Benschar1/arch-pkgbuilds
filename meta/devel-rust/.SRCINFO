@@ -1,0 +1,22 @@
+pkgbase = tsvi-devel-rust
+	pkgdesc = rust development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = cargo-about
+	depends = cargo-asm
+	depends = cargo-bloat
+	depends = cargo-cache
+	depends = cargo-clean-all
+	depends = cargo-clone
+	depends = cargo-dist
+	depends = cargo-expand
+	depends = cargo-modules
+	depends = cargo-sweep
+	depends = cargo-udeps
+	depends = cargo-whatfeatures
+	depends = cargo-workspaces
+	depends = rustup
+
+pkgname = tsvi-devel-rust

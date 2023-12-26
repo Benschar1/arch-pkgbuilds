@@ -1,0 +1,11 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-fs'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='filesystem essentials'
+arch=('any')
+depends=('tsvi-base'
+         'btrfs-progs'
+         'e2fsprogs'
+         'extundelete')
+

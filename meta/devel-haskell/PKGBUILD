@@ -1,0 +1,9 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-haskell'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='haskell development'
+arch=('any')
+depends=('tsvi-devel'
+         'ghcup-hs-bin')
+

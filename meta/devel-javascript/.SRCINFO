@@ -1,0 +1,11 @@
+pkgbase = tsvi-devel-javascript
+	pkgdesc = javascript development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = nodejs
+	depends = npm
+	depends = pnpm
+
+pkgname = tsvi-devel-javascript

@@ -1,0 +1,15 @@
+pkgbase = tsvi-pacman-utils
+	pkgdesc = dealing with pacman packages
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-base
+	depends = asp
+	depends = aurutils
+	depends = devtools
+	depends = namcap
+	depends = pacman-contrib
+	depends = pacutils
+	depends = srcinfo
+
+pkgname = tsvi-pacman-utils

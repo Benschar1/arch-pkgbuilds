@@ -1,0 +1,19 @@
+pkgbase = tsvi-desktop
+	pkgdesc = desktop essentials
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-base
+	depends = brightnessctl
+	depends = bluez
+	depends = bluez-utils
+	depends = ly
+	depends = pipewire-pulse
+	depends = powertop
+	depends = tlp
+	depends = tlp-rdw
+	depends = upower
+	depends = vlc
+	depends = xdg-user-dirs
+
+pkgname = tsvi-desktop

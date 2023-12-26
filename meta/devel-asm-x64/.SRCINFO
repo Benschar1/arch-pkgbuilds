@@ -1,0 +1,10 @@
+pkgbase = tsvi-devel-asm-x64
+	pkgdesc = x64 assembly development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = fasm
+	depends = nasm
+
+pkgname = tsvi-devel-asm-x64

@@ -1,0 +1,13 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-questionable'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='not sure if i need these'
+arch=('any')
+depends=('helvum'
+         'birdfont'
+         'font-editor'
+         'kitty'
+         'foot'
+         'sddm')
+

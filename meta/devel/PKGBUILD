@@ -1,0 +1,22 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='essential packages for general software development'
+arch=('any')
+depends=('tsvi-utils'
+         'doxygen'
+         'elfutils'
+         'gdb'
+         'git'
+         'github-cli'
+         'graphviz'
+         'hyperfine'
+         'just'
+         'meson'
+         'perf'
+         'pkgconf'
+         'python-gdbgui'
+         'vscodium-bin'
+         'vscodium-bin-marketplace')
+

@@ -1,0 +1,13 @@
+pkgbase = tsvi-questionable
+	pkgdesc = not sure if i need these
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = helvum
+	depends = birdfont
+	depends = font-editor
+	depends = kitty
+	depends = foot
+	depends = sddm
+
+pkgname = tsvi-questionable

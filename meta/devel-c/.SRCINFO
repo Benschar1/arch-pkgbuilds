@@ -1,0 +1,11 @@
+pkgbase = tsvi-devel-c
+	pkgdesc = C lang development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel
+	depends = cflow
+	depends = clang
+	depends = cmake
+
+pkgname = tsvi-devel-c

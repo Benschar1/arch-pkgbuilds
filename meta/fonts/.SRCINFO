@@ -1,0 +1,23 @@
+pkgbase = tsvi-fonts
+	pkgdesc = fonts
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-desktop
+	depends = adobe-source-code-pro-fonts
+	depends = bdf-unifont
+	depends = cantarell-fonts
+	depends = libertinus-font
+	depends = noto-fonts
+	depends = noto-fonts-cjk
+	depends = noto-fonts-emoji
+	depends = noto-fonts-extra
+	depends = otf-font-awesome
+	depends = otf-firamono-nerd
+	depends = terminus-font
+	depends = ttf-dejavu
+	depends = ttf-font-awesome-4
+	depends = ttf-linux-libertine
+	depends = ttf-noto-nerd
+
+pkgname = tsvi-fonts

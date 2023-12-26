@@ -1,0 +1,10 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-asm-x64'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='x64 assembly development'
+arch=('any')
+depends=('tsvi-devel'
+         'fasm'
+         'nasm')
+

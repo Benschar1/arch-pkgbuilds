@@ -1,0 +1,17 @@
+pkgbase = tsvi-gui-apps
+	pkgdesc = essential gui apps
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-desktop
+	depends = alacritty
+	depends = bitwarden
+	depends = brave-bin
+	depends = ferdium-bin
+	depends = imv
+	depends = pavucontrol
+	depends = pix
+	depends = qbittorrent
+	depends = zoom
+
+pkgname = tsvi-gui-apps
