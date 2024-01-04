@@ -1,6 +1,6 @@
 # Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
 pkgname=srcinfo
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="A script to regenerate out of date .SRCINFO files"
 arch=('any')

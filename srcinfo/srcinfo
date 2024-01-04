@@ -1,20 +1,24 @@
 #!/bin/env python
 
 import os
+import shutil
 import subprocess
 import sys
+import textwrap
 
 from contextlib import chdir
 
 INDENT = " " * 4
-USAGE = """
-Usage: exe [OPTION]... [TARGET]
 
-Recursively checks a directory for PKGBUILDs with out-of-date .SRCINFO files.
-Uses TARGET if provided, otherwise uses current directory. Considers a .SRCINFO
-file out of date if its last modified time is before the PKGBUILD's last
-modified time.
+USAGE_TEMPLATE = "Usage: exe [OPTION]... [TARGET]"
 
+USAGE_DESC = """Recursively checks a directory for PKGBUILDs with out-of-date
+.SRCINFO files. Uses TARGET if provided, otherwise uses current directory.
+Considers a .SRCINFO file out of date if its last modified time is before the
+PKGBUILD's last modified time.
+"""
+
+USAGE_OPTIONS = """
 Options:
     -h, --help    Show this help message
 """
@@ -37,7 +41,7 @@ def main():
 # message and exit process with code 0.
 def get_target():
     if "-h" in sys.argv[1:] or "--help" in sys.argv[1:]:
-        print(USAGE)
+        print(help_msg())
         sys.exit(0)
     return sys.argv[1] if len(sys.argv) > 1 else "."
 
@@ -65,6 +69,20 @@ def should_regenerate(dirname):
     return not os.path.isfile(SRCINFO) or os.path.getmtime(
         PKGBUILD
     ) >= os.path.getmtime(SRCINFO)
+
+
+def help_msg():
+    terminal_width = shutil.get_terminal_size().columns
+    text_width = min(terminal_width, 80)
+
+    wrapped_desc = textwrap.fill(
+        textwrap.dedent(USAGE_DESC),
+        width=text_width,
+        drop_whitespace=True,
+        initial_indent="",
+    )
+
+    return f"{USAGE_TEMPLATE}\n\n{wrapped_desc}\n{USAGE_OPTIONS}"
 
 
 def eprint(string, end="\n"):
