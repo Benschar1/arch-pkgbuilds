@@ -1,0 +1,9 @@
+pkgbase = tsvi-devel-wasm
+	pkgdesc = wasm development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel-javascript
+	depends = wabt
+
+pkgname = tsvi-devel-wasm

@@ -1,0 +1,9 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-wasm'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='wasm development'
+arch=('any')
+depends=('tsvi-devel-javascript'
+	 'wabt')
+

@@ -1,0 +1,10 @@
+pkgbase = tsvi-devel-wasm-rust
+	pkgdesc = wasm development for rust
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = tsvi-devel-wasm
+	depends = tsvi-devel-rust
+	depends = wasm-pack
+
+pkgname = tsvi-devel-wasm-rust

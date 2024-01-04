@@ -1,0 +1,10 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-wasm-rust'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='wasm development for rust'
+arch=('any')
+depends=('tsvi-devel-wasm'
+         'tsvi-devel-rust'
+	 'wasm-pack')
+
