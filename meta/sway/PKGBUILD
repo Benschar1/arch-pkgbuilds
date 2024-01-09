@@ -7,5 +7,7 @@ arch=('any')
 depends=('tsvi-wayland'
          'sway'
          'swaybg'
+	 'swayidle'
+	 'swaylock'
          'swww')
 
