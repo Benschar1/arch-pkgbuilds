@@ -1,6 +1,6 @@
 pkgbase = tsvi-desktop
 	pkgdesc = desktop essentials
-	pkgver = 0.1.0
+	pkgver = 0.1.1
 	pkgrel = 1
 	arch = any
 	depends = tsvi-base
@@ -8,6 +8,7 @@ pkgbase = tsvi-desktop
 	depends = bluez
 	depends = bluez-utils
 	depends = ly
+	depends = nm-connection-editor
 	depends = pipewire-pulse
 	depends = powertop
 	depends = tlp

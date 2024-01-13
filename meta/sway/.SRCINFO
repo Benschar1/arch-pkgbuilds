@@ -6,6 +6,8 @@ pkgbase = tsvi-sway
 	depends = tsvi-wayland
 	depends = sway
 	depends = swaybg
+	depends = swayidle
+	depends = swaylock
 	depends = swww
 
 pkgname = tsvi-sway
