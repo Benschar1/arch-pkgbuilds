@@ -1,6 +1,6 @@
 # Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
 pkgname='tsvi-desktop'
-pkgver='0.1.1'
+pkgver='0.1.2'
 pkgrel='1'
 pkgdesc='desktop essentials'
 arch=('any')
@@ -9,7 +9,6 @@ depends=('tsvi-base'
          'bluez'
          'bluez-utils'
          'ly'
-         'nm-connection-editor'
          'pipewire-pulse'
          'powertop'
          'tlp'

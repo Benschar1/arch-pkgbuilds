@@ -1,6 +1,6 @@
 # Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
 pkgname='tsvi-gui-apps'
-pkgver='0.1.0'
+pkgver='0.1.1'
 pkgrel='1'
 pkgdesc='essential gui apps'
 arch=('any')
@@ -10,6 +10,7 @@ depends=('tsvi-desktop'
          'brave-bin'
          'ferdium-bin'
          'imv'
+         'nm-connection-editor'
          'pavucontrol'
          'pix'
          'qbittorrent'

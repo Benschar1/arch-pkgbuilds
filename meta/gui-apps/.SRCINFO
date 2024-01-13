@@ -9,6 +9,7 @@ pkgbase = tsvi-gui-apps
 	depends = brave-bin
 	depends = ferdium-bin
 	depends = imv
+	depends = nm-connection-editor
 	depends = pavucontrol
 	depends = pix
 	depends = qbittorrent
