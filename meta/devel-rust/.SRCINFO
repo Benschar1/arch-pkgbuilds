@@ -12,6 +12,7 @@ pkgbase = tsvi-devel-rust
 	depends = cargo-clone
 	depends = cargo-dist
 	depends = cargo-expand
+	depends = cargo-feature
 	depends = cargo-modules
 	depends = cargo-sweep
 	depends = cargo-udeps
