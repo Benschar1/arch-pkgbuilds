@@ -1,6 +1,6 @@
 # Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
 pkgname='tsvi-devel-rust'
-pkgver='0.1.1'
+pkgver='0.1.2'
 pkgrel='1'
 pkgdesc='rust development'
 arch=('any')
@@ -17,6 +17,7 @@ depends=('tsvi-devel'
          'cargo-modules'
          'cargo-sweep'
          'cargo-udeps'
+	 'cargo-watch'
          'cargo-whatfeatures'
          'cargo-workspaces'
          'rustup')

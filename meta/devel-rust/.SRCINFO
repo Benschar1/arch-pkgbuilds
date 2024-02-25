@@ -1,6 +1,6 @@
 pkgbase = tsvi-devel-rust
 	pkgdesc = rust development
-	pkgver = 0.1.1
+	pkgver = 0.1.2
 	pkgrel = 1
 	arch = any
 	depends = tsvi-devel
@@ -16,6 +16,7 @@ pkgbase = tsvi-devel-rust
 	depends = cargo-modules
 	depends = cargo-sweep
 	depends = cargo-udeps
+	depends = cargo-watch
 	depends = cargo-whatfeatures
 	depends = cargo-workspaces
 	depends = rustup
