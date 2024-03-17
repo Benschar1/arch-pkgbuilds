@@ -5,6 +5,8 @@ pkgrel='1'
 pkgdesc='wayland essentials'
 arch=('any')
 depends=('tsvi-desktop'
+         'grim'
+         'slurp'
          'waybar'
          'wayland-docs'
          'wayland-protocols'
