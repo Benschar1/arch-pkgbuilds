@@ -1,6 +1,6 @@
 # Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
 pkgname='tsvi-base'
-pkgver='0.1.0'
+pkgver='0.1.1'
 pkgrel='1'
 pkgdesc='essentials'
 arch=('any')
@@ -11,6 +11,7 @@ depends=('base'
          'intel-ucode'
          'linux'
          'linux-firmware'
+         'lshw'
          'networkmanager'
          'paru'
          'wireless_tools')

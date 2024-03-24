@@ -1,6 +1,6 @@
 pkgbase = tsvi-base
 	pkgdesc = essentials
-	pkgver = 0.1.0
+	pkgver = 0.1.1
 	pkgrel = 1
 	arch = any
 	depends = base
@@ -10,6 +10,7 @@ pkgbase = tsvi-base
 	depends = intel-ucode
 	depends = linux
 	depends = linux-firmware
+	depends = lshw
 	depends = networkmanager
 	depends = paru
 	depends = wireless_tools
