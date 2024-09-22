@@ -1,10 +1,11 @@
 pkgbase = tsvi-wayland
 	pkgdesc = wayland essentials
-	pkgver = 0.1.0
+	pkgver = 0.1.1
 	pkgrel = 1
 	arch = any
 	depends = tsvi-desktop
 	depends = grim
+	depends = mako
 	depends = slurp
 	depends = waybar
 	depends = wayland-docs
