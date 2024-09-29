@@ -1,0 +1,11 @@
+# Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
+pkgname='tsvi-devel-avr'
+pkgver='0.1.0'
+pkgrel='1'
+pkgdesc='avr development'
+arch=('any')
+depends=('avr-binutils'
+         'avr-gcc'
+	 'avr-libc'
+         'avrdude')
+

@@ -1,0 +1,11 @@
+pkgbase = tsvi-devel-avr
+	pkgdesc = avr development
+	pkgver = 0.1.0
+	pkgrel = 1
+	arch = any
+	depends = avr-binutils
+	depends = avr-gcc
+	depends = avr-libc
+	depends = avrdude
+
+pkgname = tsvi-devel-avr
