@@ -1,6 +1,6 @@
 # Maintainer: Tsvi Benschar <tsvihbenschar@gmail.com>
 pkgname='tsvi-pacman-utils'
-pkgver='0.1.0'
+pkgver='0.1.1'
 pkgrel='1'
 pkgdesc='dealing with pacman packages'
 arch=('any')
@@ -11,5 +11,6 @@ depends=('tsvi-base'
          'namcap'
          'pacman-contrib'
          'pacutils'
-         'srcinfo')
+         'srcinfo'
+         'expac')
 

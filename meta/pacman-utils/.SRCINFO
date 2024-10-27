@@ -1,6 +1,6 @@
 pkgbase = tsvi-pacman-utils
 	pkgdesc = dealing with pacman packages
-	pkgver = 0.1.0
+	pkgver = 0.1.1
 	pkgrel = 1
 	arch = any
 	depends = tsvi-base
@@ -11,5 +11,6 @@ pkgbase = tsvi-pacman-utils
 	depends = pacman-contrib
 	depends = pacutils
 	depends = srcinfo
+	depends = expac
 
 pkgname = tsvi-pacman-utils
