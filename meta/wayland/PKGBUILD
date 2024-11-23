@@ -11,6 +11,7 @@ depends=('tsvi-desktop'
          'waybar'
          'wayland-docs'
          'wayland-protocols'
+	 'wev'
          'wlogout'
          'wl-clipboard')
 

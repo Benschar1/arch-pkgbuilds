@@ -10,6 +10,7 @@ pkgbase = tsvi-wayland
 	depends = waybar
 	depends = wayland-docs
 	depends = wayland-protocols
+	depends = wev
 	depends = wlogout
 	depends = wl-clipboard
 
