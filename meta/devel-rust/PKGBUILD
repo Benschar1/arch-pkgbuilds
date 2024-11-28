@@ -18,7 +18,6 @@ depends=('tsvi-devel'
          'cargo-sweep'
          'cargo-udeps'
 	 'cargo-watch'
-         'cargo-whatfeatures'
          'cargo-workspaces'
          'rustup')
 
